@@ -640,7 +640,7 @@ with ex_tabs[1]:
 st.divider()
 # Music-Player
 music = [
-    'my_storage/music/wings_of_freedom_-_epica_x_titan.mp3',
+    'https://github.com/Silwernian/CR66Q3_PHI02/blob/0089db87919ae39a1b214995e5f67975e06c49c6/pages/my_storage/music/wings_of_freedom_-_epica_x_titan.mp3',
     'my_storage/music/invincible_-_world_of_warcraft_ost.mp3',
     'my_storage/music/a_song_played_by_the_stars_-_steinsgate_ost.mp3',
     'my_storage/music/awe_of_she_-_guilty_gear_ost.mp3',
