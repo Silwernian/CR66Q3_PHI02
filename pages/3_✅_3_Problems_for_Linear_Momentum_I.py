@@ -634,7 +634,7 @@ with ex_tabs[1]:
 
 
 
-st.audio('pages/my_storage/music/wings_of_freedom_-_epica_x_titan.mp3')
+st.audio('pages/my_storage/music/wings_of_freedom_by_epica_x_titan.mp3')
 
 
 st.divider()
