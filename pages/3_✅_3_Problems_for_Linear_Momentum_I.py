@@ -640,7 +640,7 @@ with ex_tabs[1]:
 st.divider()
 # Music-Player
 music = [
-    'pages/my_storage/music/wings_of_freedom_-_epica_x_titan.mp3',
+    '/my_storage/music/wings_of_freedom_-_epica_x_titan.mp3',
     ]
 music_name = [
     'Wings of Freedom - Epica X Titan',
