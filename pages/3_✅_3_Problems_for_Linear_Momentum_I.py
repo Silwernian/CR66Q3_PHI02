@@ -498,7 +498,7 @@ with ex_tabs[1]:
 > B: ต่อจากข้อ (A) จงหาพลังงานจลน์ที่เปลี่ยนไปของทั้งระบบ.
 '''
 )
-        st.image('my_storage\lecture_03\p_03_01.png')
+        st.image('my_storage/lecture_03/p_03_01.png')
         p3_ans = st.checkbox(':green[**Problem 3: Answers** 🖋️]')
         if p3_ans:
             st.markdown(
