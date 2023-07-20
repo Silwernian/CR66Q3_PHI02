@@ -7,14 +7,6 @@ import toml
 
 from streamlit_extras.switch_page_button import switch_page
 
-
-def load_config(config_path):
-    with open(config_path, 'r') as f:
-        config = toml.load(f)
-    return config
-
-config = load_config('config.toml')
-
 st.set_page_config(page_title='PHI02_Q3', page_icon='\U0001F412')
 
 
