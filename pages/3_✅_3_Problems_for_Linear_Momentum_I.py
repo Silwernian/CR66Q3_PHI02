@@ -631,16 +631,24 @@ with ex_tabs[1]:
             )
 
 
-
-
-
-st.audio('pages/my_storage/music/wings_of_freedom_by_epica_x_titan.mp3')
-
-
 st.divider()
+
 # Music-Player
 music = [
-    '/my_storage/music/wings_of_freedom_-_epica_x_titan.mp3',
+    'pages/my_storage/music/wings_of_freedom_by_epica_x_titan.mp3',
+    'pages/my_storage/music/invincible_by_world_of_warcraft_ost.mp3',
+    'pages/my_storage/music/a_song_played_by_the_stars_by_steinsgate_ost.mp3',
+    'pages/my_storage/music/awe_of_she_by_guilty_gear_ost.mp3',
+    'pages/my_storage/music/beyond_the_matrix_by_epica_acoustic.mp3',
+    'pages/my_storage/music/beyond_the_matrix_by_epica.mp3',
+    'pages/my_storage/music/crimson_bow_and_arrow_by_epica_x_titan.mp3',
+    'pages/my_storage/music/davy_jones_by_unknow_source.mp3',
+    'pages/my_storage/music/dedicate_your_heart_by_epica_x_titan.mp3',
+    'pages/my_storage/music/endlessness_by_nightwish.mp3',
+    'pages/my_storage/music/gate_of_steiner_by_steinsgate_ost.mp3',
+    'pages/my_storage/music/majesty_by_ben_moon_ft_veela.mp3',
+    'pages/my_storage/music/mayuri_sadness_by_steinsgate_ost.mp3',
+    'pages/my_storage/music/natural_corruption_by_epica.mp3',
     ]
 music_name = [
     'Wings of Freedom - Epica X Titan',
