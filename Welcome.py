@@ -43,3 +43,4 @@ for i in range(len(Lecture)):
 
 st.divider()
 
+st.image('my_storage/lecture_03/example_6_01.png')
