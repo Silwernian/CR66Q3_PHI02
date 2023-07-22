@@ -12,7 +12,32 @@ st.set_page_config(page_title='PHI02_Q3', page_icon='\U0001F412')
 
 st.header(":gear: Welcome to :violet[PHI02: **Introduction to Classical Mechanics II**] :gear:")
 st.caption('-by Physics Meerkat :ringed_planet:')
+
+st.markdown(
+    '''
+### Scope ของคอร์ส: :violet[**Introduction to Classical Mechanics II**]    
+* :violet[**Linear Momentum Principle:**]   
+ใน Zone นี้เราศึกษา Translations ของ อนุภาค/ระบบอนุภาค ผ่าน :blue[Linear Momentum] โดยมีหัวข้อสำคัญดังนี้.      
+    - :red[Momentum - Impulse Theorem.]
+    - :red[Principle of Conservation of Linear Momentum.]
+    - :red[Center of Masses and Collisions.]
+* :violet[**Dynamics of Rotation and Angular Momentum:**]   
+ใน Zone นี้เราศึกษา Rotation ตั้งแต่เริ่มต้นจนพัฒนาไปถึงแนวคิดของ :blue[Angular Momentum]. หัวข้อสำคัญมีดังนี้:   
+    - :red[Kinematics of Rotations.]   
+    - :red[Newton's $2^{nd}$ Law for Rotation.]   
+    - :red[Torque and Angular Momentum.]   
+    - :red[Principle of Conservation of Angular Momentum.]
+* :violet[**Fluid Mechanics:**]   
+ใน Zone นี้เราเริ่มนำ :blue[Principles of Mechanics] ไป apply กับระบบต่างๆ โดยระบบแรกที่เราสนใจคือ :blue[Fluid]. หัวข้อสำคัญมีดังนี้:   
+    - :red[Pressure and Buoyancy.]   
+    - :red[Pascal's Principle.]   
+    - :red[The Continuity Equation.]   
+    - :red[Bernoulli's Principle.]
+'''
+)
+
 st.divider()
+
 st.subheader('Lectures')
 
 Lecture = [
