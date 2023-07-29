@@ -97,7 +97,7 @@ $$
 
 '''
 )
-topic[0].image('pages\my_storage\lecture_05\top1_pic1.png',use_column_width=True)
+topic[0].image('pages/my_storage/lecture_05/top1_pic1.png',use_column_width=True)
 topic[0].markdown(
     '''
 * :red[**Angular Velocity**] 
