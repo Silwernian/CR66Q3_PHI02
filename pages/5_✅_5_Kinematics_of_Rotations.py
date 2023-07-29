@@ -212,7 +212,7 @@ topic[2].markdown(
 > :blue[**ความเร็วเชิงมุม, $\\omega\\;$ของแต่ละจุดในล้อมีค่าเท่ากัน**]
 '''
 )
-topic[2].image('my_storage\\lecture_05\\topic3_pic1.png')
+topic[2].image('pages/my_storage/lecture_05/topic3_pic1.png')
 
 topic[2].markdown(
     '''
@@ -234,7 +234,7 @@ $$
 > :orange[วัตถุที่หมุนด้วยความเร็วเชิงมุม $\\omega$ อยู่ที่ระยะ $r$ จากแกนหมุน จะต้องมีความเร่งสู่ศูนย์กลาง] :orange[$a_c = \\frac{v^2}{r} =\\omega^2 r$ เสมอ]
 '''
 )
-topic[2].image('my_storage\\lecture_05\\topic3_pic2.png',width=300)
+topic[2].image('pages/my_storage/lecture_05/topic3_pic2.png',width=300)
 
 topic[2].markdown(
     '''
@@ -285,7 +285,7 @@ $$
 แทนค่าลงไปจะได้ :green[$\\; a=89.4\\;m/s^2  \\;$] :balloon:
 '''
     )
-    st.image('my_storage\\lecture_05\\topic3_pic3.png')
+    st.image('pages/my_storage/lecture_05/topic3_pic3.png')
 
 st.divider()
 st.subheader(':violet[**Practice Zone**. . .:lower_left_fountain_pen:]')
@@ -464,7 +464,7 @@ if ex08:
 '''
     )
     ex8_col = st.columns(2)
-    ex8_col[1].image('my_storage\\lecture_05\\ex08_pic1.png',width=200)
+    ex8_col[1].image('pages/my_storage/lecture_05/ex08_pic1.png',width=200)
     ex8_a = ex8_col[0].number_input(':violet[**Ans A:**] ในหน่วย $rpm$')
     if abs(ex8_a - (1.91)) < 0.03:
         ex8_col[0].write(':green[:balloon::balloon:**CongratZ**]:balloon::balloon:')
@@ -522,3 +522,45 @@ if ex10:
         st.balloons()
     else:
         st.write(':red[Too bad. . .:crying_cat_face:] ')
+
+st.divider()
+
+# Music-Player
+music = [
+    'pages/my_storage/music/wings_of_freedom_by_epica_x_titan.mp3',
+    'pages/my_storage/music/invincible_by_world_of_warcraft_ost.mp3',
+    'pages/my_storage/music/a_song_played_by_the_stars_by_steinsgate_ost.mp3',
+    'pages/my_storage/music/awe_of_she_by_guilty_gear_ost.mp3',
+    'pages/my_storage/music/beyond_the_matrix_by_epica_acoustic.mp3',
+    'pages/my_storage/music/beyond_the_matrix_by_epica.mp3',
+    'pages/my_storage/music/crimson_bow_and_arrow_by_epica_x_titan.mp3',
+    'pages/my_storage/music/davy_jones_by_unknow_source.mp3',
+    'pages/my_storage/music/dedicate_your_heart_by_epica_x_titan.mp3',
+    'pages/my_storage/music/endlessness_by_nightwish.mp3',
+    'pages/my_storage/music/gate_of_steiner_by_steinsgate_ost.mp3',
+    'pages/my_storage/music/majesty_by_ben_moon_ft_veela.mp3',
+    'pages/my_storage/music/mayuri_sadness_by_steinsgate_ost.mp3',
+    'pages/my_storage/music/natural_corruption_by_epica.mp3',
+    ]
+music_name = [
+    'Wings of Freedom - Epica X Titan',
+    'Invincible - World of Warcraft OST',
+    'A Song Played by the Star - Steins;Gate OST',
+    'Awe of She - Guilty Gear OST',
+    'Beyond the Matrix - Epica Acoustic Version',
+    'Beyond the Matrix - Epica',
+    'Crimson Bow and Arrow - Epica X Titan',
+    'Davy Jones - Unknown Source',
+    'Dedicate Your Heart - Epica X Titan',
+    'Endlessness - Nightwish',
+    'Gate of Steiner - Steins;Gate OST',
+    'Majesty - Ben Moon ft. Veela',
+    'Mayuri Sadness - Steins;Gate OST',
+    'Natural Corruption - Epica',
+]
+music_selector = st.selectbox(
+    'เพลงเพลินๆระหว่างทำโจทย์ . . .:notes:', music_name
+)
+for i in range(len(music_name)):
+    if music_selector == music_name[i]:
+        st.audio(music[i])
