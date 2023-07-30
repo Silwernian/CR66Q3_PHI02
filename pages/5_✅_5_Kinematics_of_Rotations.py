@@ -336,7 +336,7 @@ if ex02:
 '''
     )
     ex2_a = st.number_input(':violet[**Ans A:**] ในหน่วย $rad$')
-    if abs(ex2_a - (9.50)) < 0.3:
+    if abs(ex2_a - (8.50)) < 0.3:
         st.write(':green[:balloon::balloon:**CongratZ**]:balloon::balloon:')
         st.balloons()
     else:
