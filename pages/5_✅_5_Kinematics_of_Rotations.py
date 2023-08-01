@@ -527,6 +527,7 @@ st.divider()
 
 # Music-Player
 music = [
+    'pages/my_storage/music/majesty_by_ben_moon_ft_veela.mp3',
     'pages/my_storage/music/wings_of_freedom_by_epica_x_titan.mp3',
     'pages/my_storage/music/invincible_by_world_of_warcraft_ost.mp3',
     'pages/my_storage/music/a_song_played_by_the_stars_by_steinsgate_ost.mp3',
@@ -538,11 +539,11 @@ music = [
     'pages/my_storage/music/dedicate_your_heart_by_epica_x_titan.mp3',
     'pages/my_storage/music/endlessness_by_nightwish.mp3',
     'pages/my_storage/music/gate_of_steiner_by_steinsgate_ost.mp3',
-    'pages/my_storage/music/majesty_by_ben_moon_ft_veela.mp3',
     'pages/my_storage/music/mayuri_sadness_by_steinsgate_ost.mp3',
     'pages/my_storage/music/natural_corruption_by_epica.mp3',
     ]
 music_name = [
+    'Majesty - Ben Moon ft. Veela',
     'Wings of Freedom - Epica X Titan',
     'Invincible - World of Warcraft OST',
     'A Song Played by the Star - Steins;Gate OST',
@@ -554,7 +555,6 @@ music_name = [
     'Dedicate Your Heart - Epica X Titan',
     'Endlessness - Nightwish',
     'Gate of Steiner - Steins;Gate OST',
-    'Majesty - Ben Moon ft. Veela',
     'Mayuri Sadness - Steins;Gate OST',
     'Natural Corruption - Epica',
 ]
