@@ -42,7 +42,7 @@ st.subheader('Lectures')
 
 Lecture = [
     'Linear Momentum and Impulse. ❌', 'Conservation of Linear Momentum and Collisions. ❌', 'Problem Solving for Linear Momentum I. ✅', 'Problem Solving for Linear Momentum II. ❌',
-    'Kinematics of Rotation. ❌', 'Energy in Rotating Systems and Moment of Inertia. ❌','Torque and Angular Accelerations. ❌','The Angular Momentum. ❌','Additional Problems for Angular Momentum. ❌',
+    'Kinematics of Rotation. ✅', 'Energy in Rotating Systems and Moment of Inertia. ❌','Torque and Angular Accelerations. ❌','The Angular Momentum. ❌','Additional Problems for Angular Momentum. ❌',
     'Fluid Mechanics I - Statics (Pressure and Buoyancy). ❌', 'Fluid Mechancics II - Dynamics (The Continuity and Bernoillis Equations). ❌','Additional Problems for Fluid Mechanics. ❌',
     'Principles of Mechanics - Final Lecture. ❌'
 ]
