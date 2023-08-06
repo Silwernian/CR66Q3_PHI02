@@ -283,7 +283,7 @@ if ex01:
         st.write(':red[Too bad. . .:crying_cat_face:] ')
         st_lottie(cow, loop=False, width=200)
     ex1_b = st.number_input(':violet[**Ans B:**] ในหน่วย $\\;kg.m^2$')
-    if abs(ex1_b - (0.0640)) < 0.003:
+    if abs(ex1_b - (0.0320)) < 0.003:
         st.write(':green[:balloon::balloon:**CongratZ**]:balloon::balloon:')
         st.balloons()
     elif abs(ex1_b - 0.00) < 0.000001:
@@ -292,7 +292,7 @@ if ex01:
         st.write(':red[Too bad. . .:crying_cat_face:] ')
         st_lottie(cow, loop=False, width=200)
     ex1_c = st.number_input(':violet[**Ans C:**] ในหน่วย $\\;kg.m^2$')
-    if abs(ex1_c - (0.0640)) < 0.003:
+    if abs(ex1_c - (0.0320)) < 0.003:
         st.write(':green[:balloon::balloon:**CongratZ**]:balloon::balloon:')
         st.balloons()
     elif abs(ex1_c - 0.00) < 0.000001:
